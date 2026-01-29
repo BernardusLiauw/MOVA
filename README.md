@@ -227,6 +227,7 @@ All peak usage numbers below are measured on **360p, 8-second** video training s
 - [x] Ascend NPU Fine-tune
 - [x] Ascend NPU Inference
 - [x] SGLang Integration
+- [ ] Technical Report
 - [ ] Generation Workflow
 - [ ] Diffusers Integration
 
