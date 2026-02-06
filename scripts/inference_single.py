@@ -52,12 +52,6 @@ def main():
     if not os.path.exists(args.ref_path):
         raise FileNotFoundError(args.ref_path)
 
-    def main():
-    args = parse_args()
-
-    if not os.path.exists(args.ref_path):
-        raise FileNotFoundError(args.ref_path)
-    
     args.output_path = os.path.abspath(args.output_path)
     os.makedirs(os.path.dirname(args.output_path), exist_ok=True)
 
